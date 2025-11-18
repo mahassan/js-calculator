@@ -6,8 +6,6 @@ const subtract = document.getElementById('subtract');
 const divide = document.getElementById('divide');
 const multiply = document.getElementById('multiply');
 
-firstInput.value = 8;
-secondInput.value = 6;
 
 
 add.addEventListener("click", ()=>{
