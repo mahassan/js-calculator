@@ -16,10 +16,10 @@ add.addEventListener("click", ()=>{
 subtract.addEventListener("click", ()=>{
     sum.innerText = Number(firstInput.value) -  Number(secondInput.value);
 })
-divide.addEventListener("click", ()=>{
-    sum.innerText = Number(firstInput.value) / Number(secondInput.value);
-})
 multiply.addEventListener("click", ()=>{
-    const decimal = Number(firstInput.value) *  Number(secondInput.value);
-    sum.innerText = decimal.toFixed(2)
+    sum.innerText = Number(firstInput.value) *  Number(secondInput.value);
+})
+divide.addEventListener("click", ()=>{
+    const floating = Number(firstInput.value) / Number(secondInput.value);
+    sum.innerText = floating.toFixed(2)
 })
